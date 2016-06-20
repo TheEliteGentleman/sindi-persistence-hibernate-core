@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package za.co.sindi.dao;
+
+import org.hibernate.Session;
+
+/**
+ * @author Bienfait Sindi
+ * @since 09 December 2012
+ *
+ */
+public interface HibernateDAO {
+
+	/**
+	 * @param session the session to set
+	 */
+	public void setSession(Session session);
+}
